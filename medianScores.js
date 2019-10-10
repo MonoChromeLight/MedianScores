@@ -19,11 +19,7 @@ var getMedian = function(scores,newScore){
     var scoresMiddle=Math.floor(scores.length/2); 
 
     scores.sort((a, b) => a - b); //ascending sort 
-      if(scores.length==1) //
-      {
-      	median=scores[0];
-      }
-      else if(scores.length%2==0) //check if the elements are even 
+      if(scores.length%2==0) //check if the elements are even 
       {
       	median=(scores[scoresMiddle-1]+scores[scoresMiddle])/2;
       }
