@@ -1,3 +1,6 @@
+/* I declare 2 arrays for the exam score and for the median score. The main function - getMedian starts with variable check, 
+and asks for missing parameters. The fuction gets two parameters - the scores array and the new score. If the number of the 
+elements is odd it takes the middle element, if the number of the elements is even the median is calculated via the given formula.*/
 var scores=[]; // array for the scores
 var output=[]; //array for the median results
 var median; // variable to keep the median result
